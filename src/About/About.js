@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import "./About.css";
+import profilepic from './profilepic.jpg';
 export default class About extends Component{
         render(){
             return(
                 <section id="about">
                     <div className="row">
                         <div className="three columns">
-                            <img className="profile-pic" src="./profilepic.jpg" alt=""/>
+                            <img className="profile-pic" src={profilepic} alt="Hello"/>
                         </div>
                         <div className="nine columns main-col">
 
