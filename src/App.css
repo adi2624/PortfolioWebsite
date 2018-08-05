@@ -39,7 +39,50 @@
 .App-intro {
   font-size: large;
 }
-
+.social{
+  margin: 24px 0;
+   padding: 0;
+   font-size: 35px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+   overflow: auto;
+}
+.social li{
+  display:inline-block;
+  margin: 0 10px;
+   padding: 0;
+   list-style-type: none;
+  
+}
+.social li a{
+  color:white;
+	
+}
+.social li a i{
+  width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	font-size: 35px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+  transition: all 0.2s ease-in-out;
+}
+.social li a:hover{
+  color:aqua;
+  opacity: .7;
+}
+.fa-facebook {
+  background:#3b5998;
+} 
+.fa-linkedin {
+  background:#007bb6;
+}
+.fa-github{
+  background: #161415;
+}
+.fa-bitbucket{
+  background: darkblue;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
