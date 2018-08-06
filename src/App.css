@@ -9,15 +9,17 @@
   margin-bottom: 0%;
 }
 .App-reacttext{
-  margin-top: 1%;
+  margin-top: 0%;
   margin-bottom: 0%;
+  color:lightgreen;
+  
 }
 .App-header {
   position: relative;
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(./a350.jpg) no-repeat top center;
+   background: #161415 url(./computer.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -26,13 +28,14 @@
 .App-desc{
   font-size: 1.5em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:olivedrab;
+  color:rgb(255, 85, 6);
   width: 165%;
 }
 .App-title {
   font-size: 6.5em;
   font-family: 'Courier New', Courier, monospace;
-  color: brown;
+  color: #96D9FF;
+  margin-top: 10%;
   margin-bottom: 0%;
 }
 

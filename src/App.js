@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import MenuContainer from './MenuContainer'
 import About from './About/About'
+import Resume from './Resume/Resume'
 import './App.css';
 import './font-awesome/css/font-awesome.css'
 
@@ -11,7 +12,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        
           <MenuContainer />
           <h3 className="App-reacttext">Powered by React</h3>
           <img src={logo} className="App-logo" alt="logo" />
@@ -29,6 +29,7 @@ class App extends Component {
           
         </p>
         <About/>
+        <Resume/>
       </div>
     );
   }
