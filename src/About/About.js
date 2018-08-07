@@ -17,14 +17,15 @@ export default class About extends Component{
                    "My name is Aditya Rajguru and I am studying Computer Engineering in University of Texas at Arlington. I am from Indore,India."
                }
                </p>
-
+               
                <div className="row">
 
-                  <div className="columns contact-details">
+                  <div className="columns contact-details" >
 
-                  <h2>Contact Details</h2>
+                 
                   <p className="address">
-       						<span>{"Aditya Rajguru: "}</span>
+                  <h2>Contact Details</h2><br/>
+       						<span>{"Aditya Rajguru: "}<br></br></span>
                             <span>{"+1-734-277-1859"}</span>
                      <br></br>
        						   <span>

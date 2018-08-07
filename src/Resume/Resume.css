@@ -4,10 +4,37 @@
     padding-bottom: 72px;
     overflow: hidden;
  }
- 
+
+ .column, .columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+    height: 288px;
+}
+.row .nine {
+    width: 75%;
+}
+div {
+    display: block;
+}
+
  #resume a, #resume a:visited  { color: #11ABB0; }
  #resume a:hover, #resume a:focus { color: #313131; }
- 
+ *, *:before, *:after {
+   
+    box-sizing: border-box;
+}
  #resume h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
@@ -15,19 +42,44 @@
     font-weight: bold;
     padding-right: 20%;
  }
+ h1 {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 12px;
+    -webkit-margin-end: 0px;
+   
+}
+[class*="column"] + [class*="column"]:last-child {
+    float: right;
+}
  #resume h1 span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
-    float: left;
-    margin-left: 20px;
+    
  }
  #resume h3 {
     font: 25px/30px 'opensans-bold', sans-serif;
     width: 95%;
     text-align: center;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-bottom: 12px;
 
  }
- 
+ .row .twelve {
+    width: 100%;
+}
+ p {
+    margin: 0 0 30px 0;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
  #resume .header-col { padding-top: 9px; }
  #resume .main-col { padding-right: 10%; }
  
@@ -41,7 +93,6 @@
     color: #6E7881;
     margin-bottom: 18px;
     margin-top: 9px;
-    padding-left: 5%;
  }
  #resume .achievements{
     font: 16px/24px 'librebaskerville-italic', serif;

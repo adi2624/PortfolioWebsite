@@ -14,7 +14,7 @@ export default  class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              {
+              
                 
                     <div className="row item">
                        <div className="twelve columns">
@@ -29,7 +29,7 @@ export default  class Resume extends Component {
                     </div>
                   
                
-              }
+              
             </div>
          </div>
          <div className="row work">
@@ -83,7 +83,7 @@ export default  class Resume extends Component {
                       </span><em>{"JavaScript"}</em>
                       </li>
                     
-                  })
+                  
                 }
 
    					</ul>

@@ -20,7 +20,6 @@
 #about p {
    line-height: 30px;
    color:palegoldenrod;
-   width:90%;
    padding: 0px;
    text-align: center;
    display: inline-block;
@@ -36,7 +35,10 @@
 }
 #about .contact-details { width: 41.66667%;
 display: inline-block;
-text-align: center; }
+text-align: center; 
+float: inherit;
+width: 440px;
+}
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
