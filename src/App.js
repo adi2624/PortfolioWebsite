@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import MenuContainer from './MenuContainer'
 import About from './About/About'
 import Resume from './Resume/Resume'
+import Projects from './Projects/Projects'
 import './App.css';
 import './font-awesome/css/font-awesome.css'
 
@@ -30,6 +31,7 @@ class App extends Component {
         </p>
         <About/>
         <Resume/>
+        <Projects/>
       </div>
     );
   }

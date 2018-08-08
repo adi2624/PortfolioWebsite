@@ -1,9 +1,8 @@
 import React,{Component} from 'react'
 import './Resume.css'
-
 export default  class Resume extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+
     return (
       <section id="resume">
 
@@ -22,8 +21,22 @@ export default  class Resume extends Component {
                           <p className="info">
                           Computer Engineering
                           <span>&bull;</span> <em className="date">May 2020</em></p>
+                          <p className="grade">
+                          GPA- 3.896
+                          </p>
                           <p className="achievements">
-                          Dean's List
+                          Achievements:<br></br>
+                          <em>Dean's List </em>&bull;
+                          <em> President's Charter Scholarship</em>
+                          </p>
+                          <p className="courses">
+                          Relevant Coursework:<br></br>
+                          <em>Algorithms and Data Structures </em>&bull;
+                          <em> Digital Logic </em>&bull;
+                          <em> Operating Systems </em> &bull;
+                          <em> Obj. Oriented Programming </em>
+                          <br></br>
+
                           </p>
                        </div>
                     </div>
@@ -47,11 +60,19 @@ export default  class Resume extends Component {
                           <p className="info">
                           SI Leader
                           <span>&bull;</span> <em className="date">May 2017 </em></p>
-                          <p>
-                          
+                          <p className="info">
+                          Helped in improving academic performance of students in Calculus 1 by regularly conducting Supplemental Instruction sessions and increasing student comprehension by using strategies such as redirecting questions.
                           </p>
                        </div>
-
+                       <div className="twelve columns">
+                          <h3>Apartment and Residence Life</h3>
+                          <p className="info">
+                          Resident Assistant
+                          <span>&bull;</span> <em className="date">August 2018 </em></p>
+                          <p className="info">
+                          Supported 30+ residents in a residential community by planning events monthly and increasing interaction among people. Responded to emergency situations and documented policy violations. Served as an advisor in Hall Council committee.
+                          </p>
+                       </div>
                     </div>
 
                   
@@ -83,10 +104,120 @@ export default  class Resume extends Component {
                       </span><em>{"JavaScript"}</em>
                       </li>
                     
+                    
                   
                 }
 
    					</ul>
+                       
+
+   				</div>
+                   <div className="bars">
+
+   				   <ul className="skills">
+                {
+                  
+                      <li>
+                      <span className={`bar-expand ${"Java"}`}>
+                      </span><em>{"Java"}</em>
+                      </li>
+                    
+                    
+                  
+                }
+
+   					</ul>
+                       
+
+   				</div>
+                   <div className="bars">
+
+   				   <ul className="skills">
+                {
+                  
+                      <li>
+                      <span className={`bar-expand ${"c"}`}>
+                      </span><em>{"C/C++"}</em>
+                      </li>
+                    
+                    
+                  
+                }
+
+   					</ul>
+                       
+
+   				</div>
+                   <div className="bars">
+
+   				   <ul className="skills">
+                {
+                  
+                      <li>
+                      <span className={`bar-expand ${"Verilog"}`}>
+                      </span><em>{"Verilog"}</em>
+                      </li>
+                    
+                    
+                  
+                }
+
+   					</ul>
+                       
+
+   				</div>
+                   <div className="bars">
+
+   				   <ul className="skills">
+                {
+                  
+                      <li>
+                      <span className={`bar-expand ${"Python"}`}>
+                      </span><em>{"Python"}</em>
+                      </li>
+                    
+                    
+                  
+                }
+
+   					</ul>
+                       
+
+   				</div>
+                   <div className="bars">
+
+   				   <ul className="skills">
+                {
+                  
+                      <li>
+                      <span className={`bar-expand ${"embedded"}`}>
+                      </span><em>{"Embedded C"}</em>
+                      </li>
+                    
+                    
+                  
+                }
+
+   					</ul>
+                       
+
+   				</div>
+                   <div className="bars">
+
+   				   <ul className="skills">
+                {
+                  
+                      <li>
+                      <span className={`bar-expand ${"ROS"}`}>
+                      </span><em>{"ROS"}</em>
+                      </li>
+                    
+                    
+                  
+                }
+
+   					</ul>
+                       
 
    				</div>
 

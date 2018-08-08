@@ -1,4 +1,4 @@
-#resume {
+#projects {
     background: #fff;
     padding-top: 90px;
     padding-bottom: 72px;
@@ -16,11 +16,11 @@
     max-width: 1020px;
     margin: 0 auto;
 }
-.education{
+.smartchat{
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
-    height: 288px;
+    height: 358px;
 }
 .work {
     margin-bottom: 48px;
@@ -35,13 +35,13 @@ div {
     display: block;
 }
 
- #resume a, #resume a:visited  { color: #11ABB0; }
- #resume a:hover, #resume a:focus { color: #313131; }
+ #projects a, #projects a:visited  { color: #11ABB0; }
+ #projects a:hover, #projects a:focus { color: #313131; }
  *, *:before, *:after {
    
     box-sizing: border-box;
 }
- #resume h1 {
+ #projects h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -58,15 +58,16 @@ div {
 [class*="column"] + [class*="column"]:last-child {
     float: right;
 }
- #resume h1 span {
+ #projects h1 span {
     border-bottom: 3px solid #11ABB0;
     padding-bottom: 6px;
     
  }
- #resume h3 {
+ #projects h3 {
     font: 25px/30px 'opensans-bold', sans-serif;
     width: 95%;
     text-align: center;
+    font-style: italic;
     display: block;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
@@ -87,19 +88,40 @@ div {
     -webkit-margin-end: 0px;
     
 }
- #resume .header-col { padding-top: 9px; }
- #resume .main-col { padding-right: 10%; }
+ #projects .header-col { padding-top: 9px; }
+ #projects .main-col { padding-right: 10%; }
  
  .education, .work {
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
  }
- #resume .info {
+ #projects .chat-pic {
+     position: relative;
+    width: 112px;
+    height: 111px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+ 
+ }
+ #projects .logic-pic {
+    position: relative;
+   width: 161.28px;
+   height: 120.96px;
+   float: left;
+   margin-top: 20px;
+   margin-right: 45px;
+   transform: rotate(270deg);
+
+}
+ #projects .info {
     font: 16px/24px 'librebaskerville-italic', serif;
     color: #6E7881;
     margin-bottom: 18px;
     margin-top: 9px;
+
  }
 p.grade{
     font: 16px/24px 'librebaskerville-italic', serif;
@@ -116,19 +138,20 @@ p.courses{
     height: auto;
 
 }
- #resume .achievements{
+ #projects .achievements{
     font: 16px/24px 'librebaskerville-italic', serif;
     color: #6E7881;
     margin-bottom: 18px;
     margin-top: 9px;
     padding-left: 0%;
  }
- #resume .info span {
+ #projects .info span {
     margin-right: 5px;
     margin-left: 5px;
+    margin-bottom: 5px;
     width: 97%;
  }
- #resume .date {
+ #projects .date {
     font: 15px/24px 'opensans-regular', sans-serif;
     margin-top: 6px;
  }
