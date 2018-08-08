@@ -16,11 +16,30 @@
     max-width: 1020px;
     margin: 0 auto;
 }
+.clogo{
+    animation: App-logo-spin infinite 20s linear;
+  margin-top: 50%;
+  margin-bottom: 0%;
+}
 .smartchat{
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
     height: 358px;
+}
+.trisc{
+    
+        margin-bottom: 48px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #E8E8E8;
+        height: 358px;
+    
+}
+.icecream{
+    margin-bottom: 48px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #E8E8E8;
+        height: 358px;
 }
 .work {
     margin-bottom: 48px;
@@ -102,7 +121,7 @@ div {
     height: 111px;
     border-radius: 50%;
     float: left;
-    margin-top: 10px;
+    margin-top: 50%;
     margin-left: 5px;
  
  }
@@ -111,7 +130,7 @@ div {
    width: 161.28px;
    height: 120.96px;
    float: left;
-   margin-top: 20px;
+   margin-top: 50%;
    margin-right: 45px;
    transform: rotate(270deg);
 
@@ -299,4 +318,7 @@ p.courses{
    0%   { width: 0px;  }
    100% { width: 80%;  }
  }
- 
+ @keyframes clogo-spin{
+    from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+ }
