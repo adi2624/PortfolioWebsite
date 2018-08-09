@@ -123,7 +123,7 @@ div {
     float: left;
     margin-top: 50%;
     margin-left: 5px;
- 
+    animation: chat-pic-spin infinite 20s linear;
  }
  #projects .logic-pic {
     position: relative;
@@ -135,11 +135,29 @@ div {
    transform: rotate(270deg);
 
 }
+#projects  .ros-pic{
+    position: relative;
+    width: 136px;
+    height: 73px;
+    float: left;
+    margin-top: 50%;
+    margin-right: 45px;
+    
+}
  #projects .info {
     font: 16px/24px 'librebaskerville-italic', serif;
     color: #6E7881;
     margin-bottom: 18px;
     margin-top: 9px;
+
+ }
+ #projects .erb-pic{
+    position: relative;
+    width: 716.8px;
+    height: 389.2px;
+    float: left;
+    margin-top: 10%;
+    margin-right: 45px;
 
  }
 p.grade{
@@ -321,4 +339,9 @@ p.courses{
  @keyframes clogo-spin{
     from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+ }
+ @keyframes chat-pic-spin{
+    from { transform: rotate(-40deg); }
+    to { transform: rotate(20deg); }
+    
  }

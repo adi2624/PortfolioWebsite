@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './Projects.css';
 import chatpic from './chatpic.png';
 import logic from './altera.jpg'
+import ros from './ros.png'
+import slam from './erb.png'
 export default class Projects extends Component{
 render(){
     return(
@@ -10,7 +12,7 @@ render(){
         <div className="row smartchat">
         
                 <div className="three columns header-col">
-                <h1><span>Projects</span></h1>
+                <h1><span>Project #1</span></h1>
                 <img className="chat-pic" src={chatpic} alt="Hello"/>
                 </div>
 
@@ -41,7 +43,7 @@ render(){
 <div className="row trisc">
         
 <div className="three columns header-col">
-   <h1><span>Projects</span></h1>
+   <h1><span>Project #2</span></h1>
    <img className="logic-pic" src={logic} alt="Hello"/>
 </div>
 
@@ -73,7 +75,7 @@ render(){
 <div className="row icecream">
         
 <div className="three columns header-col">
-   <h1><span>Projects</span></h1>
+   <h1><span>Project #3</span></h1>
    <a title="By Oliver H [Public domain], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cpp-Francophonie.svg"><img width="128" className="clogo" alt="Cpp-Francophonie" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Cpp-Francophonie.svg/512px-Cpp-Francophonie.svg.png"/></a>
 </div>
 
@@ -105,7 +107,39 @@ render(){
   
 </div>
 </div>
+<div className="row ros">
+        
+<div className="three columns header-col">
+   <h1><span>Project #4</span></h1>
+   <img className="ros-pic" src={ros} alt="Hello"/>
+</div>
 
+<div className="nine columns main-col">
+  
+    
+        <div className="row item">
+           <div className="twelve columns">
+              <h3>Mapping and Navigation Robot</h3>
+              <p className="info">
+              	Collaborated with a Phd student to build a ROS based autonomous robot.
+
+                          <br></br>
+                          <br></br>
+                          <span>&bull;</span><em >Uses ROS framework.</em>
+                          <br></br>
+                          <span>&bull;</span><em >Hector SLAM algorithms used for localization and mapping</em>
+                          <br></br>
+                          <span>&bull;</span><em>Implemented on a Raspberry Pi running lubuntu.</em>
+                          
+                          </p>
+           </div>
+        </div>
+        
+      
+        <img className="erb-pic" src={slam} alt="Hello"/>
+  
+</div>
+</div>
         </section>
     );
 }
